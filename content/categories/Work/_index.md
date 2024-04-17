@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: 工作
+description: 写点和工作(?)有关的事情
 image:
 
 # Badge style
