@@ -9,7 +9,7 @@ hidden: false
 comments: true
 draft: false
 categories:
-    - 工作
+    - Work
 ---
 ## 部署起因
 众所周知，我是一个怪人；毕竟 SoftEther 安装之后默认行为是不认证SSL证书，而且就算部署也不一定真的能用上。但是我还是想部署，主要是~~闲得慌~~想说好不容易买了个域名~~（就不说我域名跑到帮我付钱的群友身上的事情了）~~ 不上证书怎么行。但是Porkbun自带的Wildcard Certificates需要每三个月手动部署一次。~~太麻烦了~~实质上也是Let's Encrypt 签发的证书。所以干脆用Certbot DNS Challenge直接签发，还能用systemd的Timer自动触发证书更新。何乐而不为？
