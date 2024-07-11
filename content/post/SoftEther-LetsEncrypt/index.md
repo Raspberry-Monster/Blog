@@ -16,4 +16,4 @@ categories:
 ## 部署过程
 我走的路线是用 Certbot 的 [snap](https://certbot.eff.org/instructions?ws=other&os=snap) 包以及 infinityofspace 开发的 [snap Plugin](https://github.com/infinityofspace/certbot_dns_porkbun) ~~\(口口声声说不喜欢 snap 实际上真到想偷懒的时候还是直接上了 snap 我感觉我有点傲娇了\)~~。然后就是不停试错，记得证书文件夹给个755权限，免得vpncmd读不到（我也不知道为啥最开始死活读不到，给了755就行了。但是执行者是root啊，怪欸。）
 ## 部署结果和工具
-还是很顺利地部署上了~~(要是没有就不会有这篇blog了)~~ 这次所用到的脚本已经使用Unlicense license开源在[GitHub](https://github.com/Raspberry-Monster/SoftEther-LetsEncrypt-Script)，欢迎各位大佬前来参观和批评指正
+还是很顺利地部署上了~~要是没有就不会有这篇 blog 了~~ 这次所用到的脚本已经使用Unlicense license开源在[GitHub](https://github.com/Raspberry-Monster/SoftEther-LetsEncrypt-Script)，欢迎各位大佬前来参观和批评指正
