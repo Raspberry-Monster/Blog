@@ -1,10 +1,10 @@
 ---
 title: "MAUI NotificationListenerService 实现记录"
-description: 咕咕咕?
+description: 咕咕咕
 date: 2026-02-17T22:30:00Z
 image: 
 math: 
-license: CC BY-SA 4.0
+license: CC BY-NC-SA 4.0
 hidden: false
 comments: true
 draft: false
